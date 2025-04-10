@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Popins', sans-serif;
+    background: url(https://images8.alphacoders.com/124/thumbbig-1243956.webp) center/cover no-repeat fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0%;
+}
+#fundo{
+    background: #e74c3c;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+}
+#fundo h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffcc00;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-shadow: 2px 2px 0 #2a75bb;
+}
+#fundo p {
+    font-size: 15px;
+}
+#busca{
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+#busca label{
+    display: block;
+    margin-bottom: 8px;
+    margin-bottom: 600;
+}
+#pokemon-nome{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+#botao{
+    margin-bottom: 15px;
+}
+.busca{
+    font-family: 'Poppins', sans-serif;
+    background: #2a75bb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+}
+#conteiner{
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+#pic{
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    display: block;
+}
+#nome{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+#numero{
+    color: #777;
+    font-weight: 600;
+    background: #f5f5f5;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
